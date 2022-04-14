@@ -1,0 +1,113 @@
+@import url("https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css");
+@import url("https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/regular.min.css");
+@import url("https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/brands.min.css");
+@import url("https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/solid.min.css");
+
+.main-content {
+	background: #f8f9fb;
+}
+
+.sidebar .nav>.nav-item>.nav-link {
+	padding: .5em .5em .5em .5em;
+}
+
+.card-box {
+	-moz-box-shadow: 0px 0px 3px #d7d9dd;
+	-webkit-box-shadow: 0px 0px 3px #d7d9dd;
+	border-radius: 8px;
+	border: none;
+	box-shadow: 0px 0px 3px #d7d9dd;
+	margin-bottom: 20px;
+}
+
+.card-box-body {
+	padding: 15px;
+}
+
+.acard>.card-header {
+	border-color: transparent;
+}
+
+.text-primary-d2 {
+	color: #030303!important;
+}
+
+.page-content {
+	padding: 0 1.375rem .625rem;
+}
+
+/*.brc-blue-m2 {
+	border-color: #0f2175!important;
+	border-top-width: 3px!important;
+	border-top-style: solid!important;
+}*/
+
+.form-control {
+    border-radius: 3px;
+}
+
+.dataTables_wrapper>.row:first-of-type {
+	background-color: #ecf4fc;
+}
+
+.navbar-blue .navbar-intro {
+	background-color: #0f2175;
+}
+
+.btn-burger .bars::after {
+	color: #fff;
+}
+
+.btn-burger .bars::before {
+	color: #fff;
+}
+
+.btn-burger .bars {
+	color: #fff;
+}
+
+.navbar-fixed>.navbar-inner {
+	background-color: #0f2175;
+	border-radius: 0px;
+	border: none;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+	margin-bottom: 0px;
+}
+
+.navbar-blue .navbar-nav>.nav>.nav-item {
+    border: 0 solid rgba(255,255,255,.92);
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #0f2175;
+    border-color: #0f2175;
+}
+
+.btn-info:hover {
+	color: #fff;
+	background-color: #000;
+	border-color: #000;
+}
+
+.page-item.active .page-link {
+	z-index: 3;
+	color: #fff;
+	background-color: #0f2175;
+	border-color: #0f2175;
+}
+
+.brc-h-primary-m3:hover,
+.brc-primary-m3 {
+	border-color: #0f2175!important;
+}
+
+.btn-h-lighter-success:hover {
+	color: #0f2175;
+	background-color: #f0f8f0;
+	border-color: #0f2175;
+}
+
+.pt-31 {
+	padding-top: 31px;
+}

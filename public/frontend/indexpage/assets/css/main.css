@@ -1,0 +1,346 @@
+/*@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+.nav-link {
+  cursor: pointer;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background: #fff;
+}
+@font-face {
+  font-family: "azonix";
+  src: url(./font/azonix.otf);
+}
+@font-face {
+  font-family: "gotham_medium";
+  src: url(./font/gotham_medium.otf);
+}
+@font-face {
+  font-family: "gotham_book";
+  src: url(./font/gotham_book.otf);
+}
+* {
+  /*font-family: "Poppins", sans-serif;*/
+  font-family: "Roboto", sans-serif !important;
+}
+.main-title {
+  font-size: 32px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 50px;
+  font-family: "azonix";
+}
+.title-d {
+  color: #000;
+}
+.title-w {
+  color: #fff;
+}
+.section-padding {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.max-theme-width {
+  margin: 0 auto;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+@media only screen and (max-width: 2570px) {
+  .max-theme-width {
+    max-width: 100%;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+@media only screen and (max-width: 1450px) {
+  .max-theme-width {
+    max-width: 100%;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}
+@media only screen and (max-width: 1030px) {
+  .max-theme-width {
+    max-width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media only screen and (max-width: 990px) {
+  header .navbar-brand img {
+    height: 80px !important;
+  }
+  header .navbar-nav {
+    margin-top: 30px;
+  }
+  header .nav-item.login-signup {
+    border-left: none !important;
+    padding-left: 0px !important;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .max-theme-width {
+    max-width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .main-title {
+    font-size: 25px;
+  }
+  header .navbar-brand img {
+    height: 80px !important;
+  }
+  header .navbar-nav {
+    margin-top: 30px;
+  }
+  header .nav-item.login-signup {
+    border-left: none !important;
+    padding-left: 0px !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .max-theme-width {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .row.reverse-row {
+    flex-direction: column-reverse;
+  }
+  header .navbar-brand img {
+    height: 80px !important;
+  }
+  header .navbar-nav {
+    margin-top: 30px;
+  }
+  header .nav-item.login-signup {
+    border-left: none !important;
+    padding-left: 0px !important;
+  }
+  footer .footer-links {
+    justify-content: flex-start !important;
+  }
+  footer .f-social {
+    text-align: left !important;
+  }
+  footer .f-social-btn {
+    text-align: left !important;
+  }
+  footer .p-last {
+    font-size: 12px !important;
+  }
+  footer .f-a-last {
+    font-size: 12px !important;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .max-theme-width {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .main-title {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 380px) {
+}
+@media only screen and (max-width: 330px) {
+  header .navbar-brand img {
+    height: 80px !important;
+  }
+  header .navbar-nav {
+    margin-top: 30px;
+  }
+  header .nav-item.login-signup {
+    border-left: none !important;
+    padding-left: 0px !important;
+  }
+}
+
+header {
+  background-color: #111;
+}
+header nav.bg-light {
+  background: #111 !important;
+  overflow: visible;
+  padding: 20px 0;
+}
+.navbar-toggler{
+  /* background: #fff; */
+  border-color: #fff !important;
+}
+.navbar-light .navbar-toggler-icon{
+  filter: invert(1);
+  }
+header .nav-item {
+  text-transform: uppercase;
+  padding: 0 0;
+  margin-left: 10px;
+}
+header .nav-item.login-signup {
+  border-left: 1px solid #2e2e2e;
+  margin-left: 10px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+header .nav-item.login-signup img{
+  margin-right: 5px;
+}
+header .nav-item.login-signup .link{
+  color: #fff;
+  text-decoration: none;
+  font-family: 'azonix';
+    font-size: 13px;
+}
+header .nav-link {
+  font-family: "azonix";
+  color: #fff !important;
+  font-size: 14px;
+}
+header .navbar-brand {
+  line-height: 10px;
+}
+header .navbar-brand img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 120px;
+  width: auto;
+}
+header .nav-logo {
+}
+header .nav-logo img {
+}
+header {
+}
+footer {
+  background: #212b33;
+}
+footer > div {
+}
+footer .row {
+}
+footer .row > div {
+}
+footer .f-logo {
+}
+footer .f-logo img {
+}
+footer .p-1 {
+  color: #777;
+  font-size: 15px;
+  text-align: justify;
+  margin: 20px 0 0;
+}
+footer .f-c-list {
+}
+footer .f-list-item {
+  margin-bottom: 15px;
+}
+footer .f-list-item img {
+  width: 10px;
+}
+footer .f-list-item a {
+  color: #777;
+  font-size: 15px;
+  margin: 0 0 0 5px;
+}
+footer .f-list-item a:hover {
+  color: #edbb38;
+  text-decoration: none;
+}
+footer table {
+}
+footer .footer-links {
+  display: flex;
+  justify-content: center;
+}
+footer table tbody {
+}
+footer table tr {
+}
+footer table td img {
+  margin-right: 10px;
+}
+footer table td {
+  color: #777;
+  font-size: 15px;
+  padding: 0 0 20px;
+  line-height: 20px;
+}
+footer table td a {
+  color: #777;
+}
+footer table td a:hover {
+  color: #edbb38;
+}
+footer .f-social {
+  text-align: center;
+}
+footer .f-social a {
+  text-decoration: none;
+}
+footer .f-social a i {
+  color: #212b33;
+  background: #43484c;
+  padding: 5px;
+  border-radius: 50%;
+}
+footer .fa-facebook-f{
+  padding: 5px 8px !important;
+}
+footer .f-social a i:hover {
+  background: #edbb38;
+}
+footer .f-social a {
+  margin: 0 5px 0 0;
+  display: inline-block;
+}
+footer .f-social a:hover {
+}
+footer .f-social-btn {
+  text-align: center;
+}
+footer .f-social-btn button.btn {
+  border-color: #edbb38;
+  color: #777;
+  border-radius: 40px;
+  padding: 5px 25px;
+  margin: 20px 0 0;
+  text-transform: uppercase;
+}
+footer .f-social-btn button.btn:hover {
+  color: #212b33;
+}
+footer .dropdown-divider {
+  margin: 30px 0;
+  border-top-color: #777;
+}
+footer .f-last {
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .p-last {
+  color: #777;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+footer .f-a-last {
+  color: #727272;
+  font-size: 14px;
+  font-weight: 500;
+}
+footer .f-s-last {
+  color: #727272;
+  display: inline-block;
+  margin: 0 20px;
+}
